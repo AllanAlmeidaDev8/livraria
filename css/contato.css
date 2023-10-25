@@ -1,0 +1,34 @@
+form{
+	font-size: 14px;
+	color: #666;
+	margin-top: 10px;
+}
+
+/*
+	# ==> id
+	. ==> class
+*/
+
+.texto-input{
+	width: 97%;
+	padding-left: 2%;
+	background-color: #CCC;
+	border:none; /*remove as bordas*/
+	/*border: 1px solid red;*/ /*tamanhoBorda tipo cor*/
+	margin-bottom: 5px;
+}
+
+.area-input{
+	width: 97%;
+	font-size: 16px;
+	resize: none; /*remove o redimensionamento*/
+	background-color: #CCC;
+}
+
+.botao{
+	background-color: #111;
+	color: #FFF;
+	border: none;
+	width: 100%;
+	height: 30px;
+}

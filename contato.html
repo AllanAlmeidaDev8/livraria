@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contato</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/contato.css">
+</head>
+<body>
+	<div id="total"> <!--CONTAINER-->
+		<header id="topo">
+			<section id="logo">
+				<!--img[imagens]{src=[endereço da imagem]}{alt-texto sobre a imagem}-->
+				<img src="img/logo.png" alt="logotipo">
+			</section>
+		</header>
+
+		<nav id="menu">
+			<a href="index.html">HOME</a>
+			<a href="#">QUEM SOMOS</a>
+			<a href="#">SERVIÇOS</a>
+			<a href="#">CLIENTE</a>
+			<a href="#">CONTATO</a>
+		</nav>
+
+		<section id="banner">
+			<img src="img/banner.jpg" alt="banner">
+		</section>
+
+		<main>
+			<article id="conteudo">
+				<h1>Fale conosco</h1>
+
+				<p>Olá! Preencha as informações abaixo para que a nossa equipe possa te ajudar. Retornaremos o mais breve possível. Não se esqueça de conferir seu e-mail e telefone. </p>
+
+				<p><strong>Se preferir, pode também utilizar nossas redes sociais ou o telefone: (xx)99999-9999.</strong></p>
+				
+			</article>
+
+			<aside id="coluna">
+				<form>
+					<label>Seu nome:</label><br>
+					<input class="texto-input" type="text" id="nome_txt"><br>
+
+					<label>Seu e-mail:</label><br>
+					<input class="texto-input" type="text" id="email_txt"><br>
+
+					<label>Confirme o e-mail:</label><br>
+					<input class="texto-input" type="text" id="confirma-email_txt"><br>
+
+					<label>Seu telefone:</label><br>
+					<input class="texto-input" type="text" id="telefone_txt"><br>
+
+					<label>Assunto:</label><br>
+					<input class="texto-input" type="text" id="assunto_txt"><br>
+
+					<label>Mensagem:</label><br>
+					<textarea class="area-input" rows="5" id="mensagem_txt"></textarea><br>
+
+					<button class="botao" type="button" id="enviar_btn">Enviar</button>
+				</form>
+			</aside>
+		</main>
+
+		<footer id="rodape">
+			Book Livraria - Todos os direitos reservados
+		</footer>
+	</div>
+	<script lang="javascript" src="js/formulario.js"></script>
+</body>
+</html>
